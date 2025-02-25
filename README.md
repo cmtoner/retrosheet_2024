@@ -3,9 +3,9 @@
 ## Introduction
 Retrosheet publishes a semi-annual update to their data downloads, which include complete play-by-play, biographical, team, player, and administrative information for Major League Baseball (MLB) games dating back to 1871. The two primary sources are the traditional collection of data (found here: https://www.retrosheet.org/downloads/alldata.zip) and a series of CSV files (found here: https://www.retrosheet.org/downloads/csvdownloads.zip). This repository is an attempt to collate, re-organize, and reconcile the data from these two sources to produce a series of flat CSV files that are ready to import into a relational database with a minimum of duplication among the tables.
 
-Section 1 of this document is a detailed description of the columns and data types present in each file and Section 2 describes any errors or inconsistencies discovered in the original files as well as the rationale for any changes made to the data.
+Section 1 of this document is a detailed description of the columns and data types present in each file and Section 2 describes any errors or inconsistencies discovered in the original files as well as the rationale for changes made to the data.
 
-## Section 1. The Data
+## Section 1. Data Description and Organization
 
 ### 1.1 Active Teams
 The active_teams.csv file contains the following fields:
