@@ -1446,7 +1446,7 @@ The definition of a night game is "any game that is played with the use of artif
 - Various values used to indicate missing data are replaced with NULL. There are several null indicators: '?', '-1', and '(unknown)' to name a few.
 - Attendance: Except for the 2020 season (COVID) and BAL201504290 (civil unrest), the majority of 0 attendance figures are likely single-admission double-headers. We treat these values as missing. Of the remaining, most occur prior to the 1941 season. It seems likely that these are missing; we will treat them as missing. The four modern occurrences are suspended games where the attendance should be considered ambiguous. We treat these values as missing.
 
-### 2.6 Schedule Files
+### 2.8 Schedule Files
 - Inconsistent file structure:
  - '1904schedule' does not have a file header,
  - '1921schedule' does not have a file header,
@@ -1454,7 +1454,7 @@ The definition of a night game is "any game that is played with the use of artif
  - '2024schedule' has an extra column.
 - There are two entries for game_id = 'DET202205100'.
 
-### 2.8 Game Info File
+### 2.9 Game Info File
 - Inconsistent values for the day/night indicator; these are changed to 'd' and 'n'.
 - Dates are standardized to the YYYY-mm-dd hh:mm:ss format to indicate start times (24 hour clock), when available. Separate columns for date and start time are eliminated. In cases where the start time in unknown, the value is 00:00:00.
 - The columns season (year), winning team ID , and losing team ID are dropped as they are easily derived from the existing data.
